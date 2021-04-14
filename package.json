@@ -1,0 +1,22 @@
+{
+  "name": "youtube-music-app",
+  "version": "1.0.0",
+  "description": "Um aplicativo para ouvir musica do youtube music",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Marco Aurélio",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^12.0.4"
+  }
+}
