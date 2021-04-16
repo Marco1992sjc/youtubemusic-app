@@ -7,7 +7,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 900,
     height: 700,
-    icon: path.join(__dirname, '/youtubeicon.ico'),
+    icon: path.join(__dirname, '/assets/youtubeicon.ico'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
       
