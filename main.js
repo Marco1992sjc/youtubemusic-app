@@ -5,9 +5,9 @@ const path = require('path')
 function createWindow () {
 
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    icon: __dirname + '/youtubeicon.ico',
+    width: 900,
+    height: 700,
+    icon: path.join(__dirname, '/youtubeicon.ico'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
       
@@ -15,8 +15,14 @@ function createWindow () {
   })
 
  
-
+  mainWindow.setMenuBarVisibility(false)
   mainWindow.loadURL('https://music.youtube.com/', {userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) old-airport-include/1.0.0 Chrome Electron/7.1.7 Safari/537.36'})
+
+  
+
+
+
+
 }
 
 
