@@ -7,5 +7,5 @@ https://www.youtube.com/watch?v=wtlzPD5VS0g
 
 
 
-ambos tocando música, o player do youtube tocando vídeo.
+Comparativo de uso de recursos do sistema: obs o player do youtube tocando vídeo.
 ![comparativo](https://user-images.githubusercontent.com/79483164/115050534-3970e780-9eb2-11eb-9e7f-6ebd2a2560a2.jpg)
