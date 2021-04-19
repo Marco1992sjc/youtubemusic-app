@@ -1,5 +1,5 @@
 Aplicativo simples para escutar suas músicas do youtube music através do desktop.
-
+compilado com Electron-packager e instalação feito com InnoSetup pois o Forge cria uma instalação com o pacote Windows Squirrel que eu não consegui edita-lo como fiz com Inno.
 
 
 link do vídeo do executável funcionando:
