@@ -1,4 +1,4 @@
-// Modules to control application life and create native browser window
+
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
@@ -7,19 +7,31 @@ const path = require('path')
 
 function createWindow () {
 
+
+
   const mainWindow = new BrowserWindow({
+
+    backgroundColor: '#000' ,
+    
+  
+    titleBarStyle: "hidden",
     width: 900,
-    height: 700,
+    height: 650,
     icon: path.join(__dirname, '/assets/youtubeicon.ico'),
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
+      enableRemoteModule: true,
+      nodeIntegration: true,
       
     }
   })
 
+  
+
  
   mainWindow.setMenuBarVisibility(false)
   mainWindow.loadURL('https://music.youtube.com/', {userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) old-airport-include/1.0.0 Chrome Electron/7.1.7 Safari/537.36'})
+
 
  
   
@@ -60,6 +72,8 @@ app.whenReady().then(() => {
 app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') app.quit()
 })
+
+
 
 
 
