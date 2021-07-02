@@ -13,15 +13,12 @@ function createWindow () {
 
     backgroundColor: '#000' ,
     
-  
-    titleBarStyle: "hidden",
     width: 900,
     height: 650,
     icon: path.join(__dirname, '/assets/youtubeicon.ico'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
-      enableRemoteModule: true,
-      nodeIntegration: true,
+      
       
     }
   })
