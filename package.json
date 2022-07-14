@@ -31,7 +31,7 @@
   "dependencies": {
     "@electron-forge/maker-wix": "^6.0.0-beta.54",
     "electron-squirrel-startup": "^1.0.0",
-    "npm": "^7.19.1"
+    "npm": "^8.14.0"
   },
   "config": {
     "forge": {
