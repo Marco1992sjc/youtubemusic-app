@@ -29,7 +29,7 @@
     "electron-packager": "^15.2.0"
   },
   "dependencies": {
-    "@electron-forge/maker-wix": "^6.0.0-beta.54",
+    "@electron-forge/maker-wix": "^6.0.0-beta.70",
     "electron-squirrel-startup": "^1.0.0",
     "npm": "^7.19.1"
   },
